@@ -1,0 +1,237 @@
+[
+    {
+        "id" : 1,
+        "name": "이창근",
+        "position": "GK"
+    },
+    {
+        "id" : 2,
+        "name": "정강민",
+        "position": "MF"
+    },
+    {
+        "id" : 3,
+        "name": "노동건",
+        "position": "DF"
+    },
+    {
+        "id" : 4,
+        "name": "김현우",
+        "position": "DF"
+    },
+    {
+        "id" : 6,
+        "name": "홍정운",
+        "position": "DF"
+    },
+    {
+        "id" : 7,
+        "name": "공민현",
+        "position": "FW"
+    },
+    {
+        "id" : 8,
+        "name": "주세종",
+        "position": "MF"
+    },
+    {
+        "id" : 9,
+        "name": "구텍",
+        "position": "FW"
+    },
+    {
+        "id" : 10,
+        "name": "호사",
+        "position": "FW"
+    },
+    {
+        "id" : 11,
+        "name": "김인균",
+        "position": "MF"
+    },
+    {
+        "id" : 12,
+        "name": "김승대",
+        "position": "MF"
+    },
+    {
+        "id" : 13,
+        "name": "이동원",
+        "position": "FW"
+    },
+    {
+        "id" : 14,
+        "name": "김준범",
+        "position": "MF"
+    },
+    {
+        "id" : 15,
+        "name": "임덕근",
+        "position": "DF"
+    },
+    {
+        "id" : 16,
+        "name": "김경환",
+        "position": "MF"
+    },
+    {
+        "id" : 17,
+        "name": "이현식",
+        "position": "MF"
+    },
+    {
+        "id" : 19,
+        "name": "신상은",
+        "position": "FW"
+    },
+    {
+        "id" : 20,
+        "name": "음라파",
+        "position": "FW"
+    },
+    {
+        "id" : 22,
+        "name": "오재석",
+        "position": "DF"
+    },
+    {
+        "id" : 23,
+        "name": "강성윤",
+        "position": "DF"
+    },
+    {
+        "id" : 24,
+        "name": "박진성",
+        "position": "DF"
+    },
+    {
+        "id" : 25,
+        "name": "이준서",
+        "position": "GK"
+    },
+    {
+        "id" : 26,
+        "name": "정우빈",
+        "position": "FW"
+    },
+    {
+        "id" : 27,
+        "name": "임유석",
+        "position": "DF"
+    },
+    {
+        "id" : 28,
+        "name": "아론",
+        "position": "DF"
+    },
+    {
+        "id" : 29,
+        "name": "김한서",
+        "position": "MF"
+    },
+    {
+        "id" : 30,
+        "name": "배서준",
+        "position": "DF"
+    },
+    {
+        "id" : 32,
+        "name": "김태현",
+        "position": "DF"
+    },
+    {
+        "id" : 33,
+        "name": "이정택",
+        "position": "DF"
+    },
+    {
+        "id" : 37,
+        "name": "이은재",
+        "position": "MF"
+    },
+    {
+        "id" : 40,
+        "name": "유선우",
+        "position": "FW"
+    },
+    {
+        "id" : 41,
+        "name": "안태윤",
+        "position": "GK"
+    },
+    {
+        "id" : 42,
+        "name": "정진우",
+        "position": "MF"
+    },
+    {
+        "id" : 44,
+        "name": "이순민",
+        "position": "MF"
+    },
+    {
+        "id" : 45,
+        "name": "이한빈",
+        "position": "DF"
+    },
+    {
+        "id" : 66,
+        "name": "이선호",
+        "position": "DF"
+    },
+    {
+        "id" : 70,
+        "name": "레안드로",
+        "position": "FW"
+    },
+    {
+        "id" : 71,
+        "name": "강윤성",
+        "position": "DF"
+    },
+    {
+        "id" : 72,
+        "name": "김민기",
+        "position": "FW"
+    },
+    {
+        "id" : 73,
+        "name": "이준규",
+        "position": "MF"
+    },
+    {
+        "id" : 77,
+        "name": "윤도영",
+        "position": "MF"
+    },
+    {
+        "id" : 80,
+        "name": "김민수",
+        "position": "GK"
+    },
+    {
+        "id" : 81,
+        "name": "김도윤",
+        "position": "MF"
+    },
+    {
+        "id" : 88,
+        "name": "박준서",
+        "position": "DF"
+    },
+    {
+        "id" : 91,
+        "name": "송창석",
+        "position": "FW"
+    },
+    {
+        "id" : 98,
+        "name": "안톤",
+        "position": "DF"
+    },
+    {
+        "id" : 99,
+        "name": "정산",
+        "position": "GK"
+    }
+]
