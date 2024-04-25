@@ -37,7 +37,7 @@ format_instructions = output_parser.get_format_instructions()
 
 #%% retriever 정의 - FAISS
 # Content Information: 응원가와 선수 position
-player_info_filedir = 'GenAI_Application/player_info.json'
+player_info_filedir = './GenAI_Application/player_info.json'
 position_dict = dict([["GK", "골키퍼"], ["DF", "수비수"], ["MF", "미드필더"], ["FW", "공격수"]])
 official_cheerup = [
         "영원토록 휘날려라 자줏빛투혼 모든이의 가슴속에 무궁하거라",
@@ -138,8 +138,8 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-@app.post("/data/")
-def generate_text(userin: dict):
+@app.post("/")
+async def generate_text(userin: dict):
     print(userin)
     user_information = "응원하려는 선수의 이름은 {}이고, 이 선수가 보여줬으면 하는 모습은 {}입니다. 예상하는 경기 결과는 {}이고, 현재 나는 {}을 느낍니다.".format(userin["player_name"], userin["attitude"], userin["expected_score"], userin["feeling"])
     while True:
