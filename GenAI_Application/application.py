@@ -5,12 +5,12 @@ load_dotenv()  # take environment variables from .env.
 #%% import library
 import json
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
-from langchain_core.output_parsers import JsonOutputParser, StrOutputParser, PydanticOutputParser
+from langchain_core.output_parsers import JsonOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.runnables import RunnablePassthrough
 from langchain_community.vectorstores import FAISS
-from langchain_core.pydantic_v1 import BaseModel, Field, ValidationError
-from langchain_core.messages import BaseMessage
+from langchain_core.pydantic_v1 import BaseModel, Field
+from langsmith.wrappers import wrap_openai
 from typing import List, Optional
 
 #%% Input & Output schema
@@ -31,6 +31,7 @@ class UserOut(BaseModel):
 model = ChatOpenAI(model = "gpt-3.5-turbo-0125", 
                     temperature = 0.2) # temperature: 예측 변동성 최소화
 embedding = OpenAIEmbeddings()
+wrapped_model = wrap_openai(model)  # Langsmith
 ## Output Parser
 output_parser = JsonOutputParser(pydantic_object=UserOut)
 format_instructions = output_parser.get_format_instructions()
@@ -118,6 +119,7 @@ retrieval_chain = (
         "user_information":RunnablePassthrough() 
     }
     | prompt
+    # | wrapped_model # Langsmith-trace
     | model
     | output_parser
 )
@@ -151,6 +153,7 @@ async def generate_text(userin: dict):
         else:
             break
     return generated_data
+
 
 if __name__ == "__main__":
     import uvicorn
