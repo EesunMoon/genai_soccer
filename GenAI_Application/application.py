@@ -31,7 +31,7 @@ class UserOut(BaseModel):
 model = ChatOpenAI(model = "gpt-3.5-turbo-0125", 
                     temperature = 0.2) # temperature: 예측 변동성 최소화
 embedding = OpenAIEmbeddings()
-wrapped_model = wrap_openai(model)  # Langsmith
+# wrapped_model = wrap_openai(model)  # Langsmith
 ## Output Parser
 output_parser = JsonOutputParser(pydantic_object=UserOut)
 format_instructions = output_parser.get_format_instructions()
