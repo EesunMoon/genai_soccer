@@ -38,7 +38,7 @@ format_instructions = output_parser.get_format_instructions()
 
 #%% retriever 정의 - FAISS
 # Content Information: 응원가와 선수 position
-player_info_filedir = './GenAI_Application/player_info.json'
+player_info_filedir = './genai_application/player_info.json'
 position_dict = dict([["GK", "골키퍼"], ["DF", "수비수"], ["MF", "미드필더"], ["FW", "공격수"]])
 official_cheerup = [
         "영원토록 휘날려라 자줏빛투혼 모든이의 가슴속에 무궁하거라",

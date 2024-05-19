@@ -2,7 +2,7 @@
 FROM python:3.9-slim
 
 # Set the working directory in the container
-WORKDIR /GenAI_Application
+WORKDIR /genai_application
 
 # Copy the requirements file into the container
 COPY requirements.txt ./
@@ -20,4 +20,4 @@ EXPOSE 80
 ENV PORT=80
 
 # Run app.py when the container launches
-CMD ["uvicorn", "GenAI_Application.application:app", "--host", "0.0.0.0", "--port", "80"]
+CMD ["uvicorn", "genai_application.application:app", "--host", "0.0.0.0", "--port", "80"]
