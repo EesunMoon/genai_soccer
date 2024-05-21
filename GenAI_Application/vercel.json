@@ -13,7 +13,7 @@
       }
     ],
     "functions": {
-      "api/GenAI_Application/application.py": {
+      "api/genai_aspplication/application.py": {
         "runtime": "python3.9"
       }
     }
