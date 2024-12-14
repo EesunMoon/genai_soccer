@@ -1,6 +1,6 @@
 # Personalized Support Message Generation System using Generative AI
 
-This project focuses on enhancing fan engagement through a Generative AI system that creates personalized support messages based on fan-inputted Q&A responses. <br> The system was deployed at live photo booth events for a Korean professional soccer team (*Daejeon Hana Citizen*).
+This project focuses on enhancing fan engagement through a Generative AI system that creates personalized support messages based on fan-inputted Q&A responses. The system was deployed at live photo booth events for a Korean professional soccer team (*Daejeon Hana Citizen*).
 
 ## 📄 Overview
 
