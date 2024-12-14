@@ -10,7 +10,7 @@ This project focuses on enhancing fan engagement through a Generative AI system 
   - Enhance fan interaction by generating personalized support messages.
   - Integrate generated messages with fan photos and player images for live events.
 
--- 
+---
 ## 🚀 System Architecture
 ![System Architecture](https://github.com/user-attachments/assets/d6887e9f-e41c-4f9e-a898-3f076f745c7b)
 
