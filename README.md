@@ -24,6 +24,7 @@ This project focuses on enhancing fan engagement through a Generative AI system 
 1. **Generative AI Pipeline**:
    - Built with **LangChain** and **OpenAI** for generating personalized support messages.
    - Integrated with **Retrieval-Augmented Generation (RAG)** for message optimization.
+   - **Prompt-Tuning** to refine generated outputs
 
 2. **Message Optimization**:
    - Enhanced message relevance and accuracy using **prompt-tuning** techniques.
