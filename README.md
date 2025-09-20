@@ -4,7 +4,7 @@ This project focuses on enhancing fan engagement through a Generative AI system 
 
 ## 📄 Overview
 
-- **Role:** Machine Learning Engineer at Humaner  
+- **Role:** Machine Learning Engineer at Humaner AI  
 - **Initiative:** Korean Professional Soccer Team Fan Engagement  
 - **Objective:**
   - Enhance fan interaction by generating personalized support messages.
